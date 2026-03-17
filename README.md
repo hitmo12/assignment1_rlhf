@@ -31,22 +31,18 @@ Stage 3  : Evaluation (reward score, win rate, perplexity, TTR, length)
 ## Repository Contents
 
 ```
-RLHF_TinyLlama1_1B.ipynb       TinyLlama-1.1B-Chat full pipeline
+RLHF_TinyLlama.ipynb           TinyLlama-1.1B-Chat full pipeline
 RLHF_OPT125M.ipynb             OPT-125M full pipeline
-assignment1_report.pdf         Written report (LaTeX compiled)
-Assignment1_presentation.pptx  Slide deck
 README.md                      This file
 requirements.txt               Python dependencies
-
-outputs/ (generated after running)
-├── sft_loss_tinyllama.png         SFT loss curve — TinyLlama
-├── sft_loss_opt.png               SFT loss curve — OPT-125M
-├── dpo_metrics.png                DPO training metrics — TinyLlama
-├── dpo_metrics_opt.png            DPO training metrics — OPT-125M
-├── evaluation_results.png         Reward + win rate chart — TinyLlama
-├── evaluation_results_opt.png     Reward + win rate chart — OPT-125M
-├── evaluation_results.csv         Full per-prompt results (35 prompts) — TinyLlama
-└── evaluation_results_opt.csv     Full per-prompt results (35 prompts) — OPT-125M
+sft_loss_tinyllama.png         SFT loss curve — TinyLlama
+sft_loss_opt.png               SFT loss curve — OPT-125M
+dpo_metrics.png                DPO training metrics — TinyLlama
+dpo_metrics_opt.png            DPO training metrics — OPT-125M
+evaluation_results.png         Reward + win rate chart — TinyLlama
+evaluation_results_opt.png     Reward + win rate chart — OPT-125M
+evaluation_results.csv         Full per-prompt results (35 prompts) — TinyLlama
+evaluation_results_opt.csv     Full per-prompt results (35 prompts) — OPT-125M
 ```
 
 ---
